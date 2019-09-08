@@ -7,7 +7,7 @@ import "testing"
 
 func TestGreet(t *testing.T) {
 	result := Greet()
-	if result != "Hello Github Action" {
-		t.Errorf("Greet() = %s; Expected Hello Github Action", result)
+	if result != "Hello Github Action, Jacob is awesome" {
+		t.Errorf("Greet() = %s; Expected Hello Github Action, Jacob is awesome", result)
 	}
 }
