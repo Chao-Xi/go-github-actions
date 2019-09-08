@@ -1,7 +1,7 @@
 package hello
 
 func Greet() string {
-	return "Hello Github Action"
+	return "Hello Github Action, Jacob is awesome"
 }
 
 //  [Creating packages as function libraries]
